@@ -1,0 +1,20 @@
+0:Astarion
+1:Gale
+2:Shadowheart
+3:Fem Tav
+4:Male Tav
+5:Halsin
+6:Karlach
+7:Laezel
+8:Wyll
+9:All
+10:durge Tav
+11:Minthara
+12:Reader (You)
+13:Astarion
+14:Astarion
+15:Astarion
+16:Astarion
+17:Astarion
+18:Astarion
+19:Astarion
