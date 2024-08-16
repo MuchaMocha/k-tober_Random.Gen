@@ -37,6 +37,8 @@ kinks.txt
 
 >list of nearly 200 kinks for 
 read-in
+>kinks pulled from tumblr and 
+MuchaBrain to compile list
 >to update list, e.g.: 
 
 198:bondage
