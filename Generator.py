@@ -17,7 +17,6 @@ def listCreator(textFile):
         value=value.strip(" ,\n")
         dicky[key]=value
     return dicky
-
 def readFiles(in1,in2):
     """Reads files and makes lists out of them"""
     global CHARACTER_DICT
@@ -27,8 +26,7 @@ def readFiles(in1,in2):
         CHARACTER_DICT = listCreator(lines)
     with open (in2,'r') as f2:
         lines2=f2.readlines()
-        KINK_DICT = listCreator(lines2)
-    
+        KINK_DICT = listCreator(lines2)    
 def characterRandomizer():
     """Takes characters from Dictionary and randomizes them in a list"""
     character_top=[]
@@ -79,9 +77,7 @@ def dataFrameCreator(dict, fileName):
 
     #output files
     df.to_csv(f'{fileName}.csv',index=False)
-    df.to_html(f'{fileName}.html',index=False)
-
-        
+    df.to_html(f'{fileName}.html',index=False)      
 def main():
     print("""
     >>> k-tober Random.Gen <<<
