@@ -95,7 +95,7 @@ def main():
     fileName=input("""
     Enter output file title.
     Press enter.
-    'output'= """)
+    'name'= """)
 
     time.sleep(0.5)
     print('''
@@ -129,6 +129,6 @@ def main():
     ⠀⠀⣰⠃⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     ⠀⠐⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     ''')
-    
+
 if __name__=="__main__":
     main()
